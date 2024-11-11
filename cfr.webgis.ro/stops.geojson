@@ -29848,6 +29848,90 @@
           45.788784
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "13904",
+        "name": "Vidra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 
+          26.1537373,
+          44.268993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "13899",
+        "name": "Sintești hc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 
+          26.1304831124,
+          44.30466549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "13887",
+        "name": "Jilava"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 
+          26.1065841,
+          44.3417962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "13863",
+        "name": "București Progresu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 
+          26.0912667,
+          44.3654444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "12235",
+        "name": "Vârteju"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 
+          26.0147876,
+          44.3687224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "12144",
+        "name": "București Vest"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 
+          25.9677754,
+          44.4272034
+        ]
+      }
     }
   ]
 }
