@@ -75,12 +75,7 @@ class GovRoGTFSConverter
             # Some XMLs have empty Operator, i.e. Astra.
             agency_id = trip_row.attr('Operator')
             if agency_map[agency_id].nil?
-                settings['fuzzy_agency_matching'].each do |filename_keywords, fuzzy_agency_id|
-                    if file_path.include? filename_keywords
-                        agency_id = fuzzy_agency_id
-                        break
-                    end
-                end
+                raise "Unknown agency_id: #{agency_id} - add it to ./settings.yml" 
             end
 
             if agency_map[agency_id].nil?
