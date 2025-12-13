@@ -1,9 +1,3 @@
-fuzzy_agency_matching:
-    # filename-parts: "agency_id"
-    
-    # s.c.-astra-trans-carpatic-s.r.l-19-trenuri_2022.xml
-    # astra-trans-carpatic: "200000" # Astra doesnt have "Operator" set
-
 agency_mapping:
     -   
         agency_id: 227098
