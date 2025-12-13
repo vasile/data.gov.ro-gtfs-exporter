@@ -348,7 +348,14 @@ class GovRoGTFSConverter
         return calendar_dates_rows
     end
 
-    def self.route_type_to_gtfs(train_type)
+    # https://developers.google.com/transit/gtfs/reference/extended-route-types
+    def self.route_type_to_gtfs(trip_data)
+        train_type = trip_data['train_type_name']
+        
+        if trip_data['trip_short_name'].downcase.start_with?('auto')
+            return 200
+        end
+
         case train_type
         when "R"
             return 106
@@ -390,7 +397,7 @@ class GovRoGTFSConverter
                     'agency_id' => trip_data['agency_id'],
                     'route_long_name' => "#{first_stop['stop_name']} - #{last_stop['stop_name']}",
                     # https://developers.google.com/transit/gtfs/reference#routestxt
-                    'route_type' => route_type_to_gtfs(trip_data['train_type_name']),
+                    'route_type' => route_type_to_gtfs(trip_data),
                 }
 
                 routes_map[route_key] = route_data
