@@ -91,7 +91,8 @@ class GovRoGTFSConverter
             trip_data = {
                 'trip_id' => trip_id,
                 'agency_id' => agency_id,
-                'trip_short_name' => trip_type,
+                'trip_short_name' => trip_id,
+                'train_type_name' => trip_type,
                 'stops_data' => self::trip_stops_data_for_xml_row(trip_row, trip_id),
                 'calendar_data' => self::trip_calendar_data_for_xml_row(trip_row),
             }
@@ -352,6 +353,25 @@ class GovRoGTFSConverter
         return calendar_dates_rows
     end
 
+    def self.route_type_to_gtfs(train_type)
+        case train_type
+        when "R"
+            return 106
+        when "R-E"
+            return 106
+        when "R-M"
+            return 106
+        when "IR"
+            return 103
+        when "IR-N"
+            return 105
+        when "IC"
+            return 102
+        else
+            return 2
+        end
+    end
+
     def self.gtfs_data_routes_from_trips_data(trips_data)
         routes_map = {}
         route_id = 1
@@ -373,10 +393,9 @@ class GovRoGTFSConverter
                 route_data = {
                     'route_id' => route_id,
                     'agency_id' => trip_data['agency_id'],
-                    'route_short_name' => "#{trip_data['trip_short_name']}: #{first_stop['stop_name']} - #{last_stop['stop_name']}",
-                    'route_long_name' => "#{trip_data['trip_short_name']}: #{stop_names.join(' - ')}",
+                    'route_long_name' => "#{first_stop['stop_name']} - #{last_stop['stop_name']}",
                     # https://developers.google.com/transit/gtfs/reference#routestxt
-                    'route_type' => '2',
+                    'route_type' => route_type_to_gtfs(trip_data['train_type_name']),
                 }
 
                 routes_map[route_key] = route_data
@@ -480,6 +499,3 @@ class GovRoGTFSConverter
     end
 
 end
-
-
-
