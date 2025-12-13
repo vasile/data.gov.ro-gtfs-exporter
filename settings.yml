@@ -15,11 +15,6 @@ agency_mapping:
         agency_name: Transferoviar Calatori
         agency_url: http://www.transferoviarcalatori.ro/
         agency_timezone: Europe/Bucharest
-    -   
-        agency_id: 234273
-        agency_name: Calea Ferată din Moldova
-        agency_url: http://www.railway.md
-        agency_timezone: Europe/Bucharest
     -
         agency_id: 236025
         agency_name: Softrans
