@@ -1,8 +1,9 @@
 agency_id,agency_name,agency_url,agency_timezone
-6100826,CFR Călători,http://www.cfrcalatori.ro/,Europe/Bucharest
-200000,Astra Trans Carpatic,https://www.astratranscarpatic.ro,Europe/Bucharest
-906090,Calea Ferată din Moldova,http://www.railway.md,Europe/Bucharest
-236037,Interregional Calatori,http://www.viaterraspedition.ro/,Europe/Bucharest
 227098,Regio Călători,http://www.regiotrans.ro/,Europe/Bucharest
-236025,Softrans,http://softrans.ro/,Europe/Bucharest
 228389,Transferoviar Calatori,http://www.transferoviarcalatori.ro/,Europe/Bucharest
+234273,Calea Ferată din Moldova,http://www.railway.md,Europe/Bucharest
+236025,Softrans,http://softrans.ro/,Europe/Bucharest
+236037,InterRegional Călători,https://interregional.ro,Europe/Bucharest
+237330,Astra Trans Carpatic,https://www.astratranscarpatic.ro,Europe/Bucharest
+6100826,CFR Călători,http://www.cfrcalatori.ro/,Europe/Bucharest
+916191,Ferotrafic-TFI,https://www.dnb.com/business-directory/company-profiles.ferotrafic-tfi_srl.917ddfa0b502beb6709caca942cd5d26.html,Europe/Bucharest

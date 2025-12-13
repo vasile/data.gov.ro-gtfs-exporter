@@ -2,33 +2,23 @@ fuzzy_agency_matching:
     # filename-parts: "agency_id"
     
     # s.c.-astra-trans-carpatic-s.r.l-19-trenuri_2022.xml
-    astra-trans-carpatic: "200000" # Astra doesnt have "Operator" set
+    # astra-trans-carpatic: "200000" # Astra doesnt have "Operator" set
 
 agency_mapping:
-    -
-        agency_id: 6100826
-        agency_name: CFR Călători
-        agency_url: http://www.cfrcalatori.ro/
-        agency_timezone: Europe/Bucharest
-    -   
-        agency_id: 200000
-        agency_name: Astra Trans Carpatic
-        agency_url: https://www.astratranscarpatic.ro
-        agency_timezone: Europe/Bucharest
-    -   
-        agency_id: 906090
-        agency_name: Calea Ferată din Moldova
-        agency_url: http://www.railway.md
-        agency_timezone: Europe/Bucharest
-    - 
-        agency_id: 236037
-        agency_name: Interregional Calatori
-        agency_url: http://www.viaterraspedition.ro/
-        agency_timezone: Europe/Bucharest
     -   
         agency_id: 227098
         agency_name: Regio Călători
         agency_url: http://www.regiotrans.ro/
+        agency_timezone: Europe/Bucharest
+    -
+        agency_id: 228389
+        agency_name: Transferoviar Calatori
+        agency_url: http://www.transferoviarcalatori.ro/
+        agency_timezone: Europe/Bucharest
+    -   
+        agency_id: 234273
+        agency_name: Calea Ferată din Moldova
+        agency_url: http://www.railway.md
         agency_timezone: Europe/Bucharest
     -
         agency_id: 236025
@@ -36,10 +26,26 @@ agency_mapping:
         agency_url: http://softrans.ro/
         agency_timezone: Europe/Bucharest
     -
-        agency_id: 228389
-        agency_name: Transferoviar Calatori
-        agency_url: http://www.transferoviarcalatori.ro/
+        agency_id: 236037
+        agency_name: InterRegional Călători
+        agency_url: https://interregional.ro
         agency_timezone: Europe/Bucharest
+    -   
+        agency_id: 237330
+        agency_name: Astra Trans Carpatic
+        agency_url: https://www.astratranscarpatic.ro
+        agency_timezone: Europe/Bucharest
+    -
+        agency_id: 6100826
+        agency_name: CFR Călători
+        agency_url: http://www.cfrcalatori.ro/
+        agency_timezone: Europe/Bucharest
+    -
+        agency_id: 916191
+        agency_name: Ferotrafic-TFI
+        agency_url: https://www.dnb.com/business-directory/company-profiles.ferotrafic-tfi_srl.917ddfa0b502beb6709caca942cd5d26.html
+        agency_timezone: Europe/Bucharest
+    
 
 gtfs_files:
     agency:
