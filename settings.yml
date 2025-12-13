@@ -1,9 +1,3 @@
-fuzzy_agency_matching:
-    # filename-parts: "agency_id"
-    
-    # s.c.-astra-trans-carpatic-s.r.l-19-trenuri_2022.xml
-    # astra-trans-carpatic: "200000" # Astra doesnt have "Operator" set
-
 agency_mapping:
     -   
         agency_id: 227098
@@ -14,11 +8,6 @@ agency_mapping:
         agency_id: 228389
         agency_name: Transferoviar Calatori
         agency_url: http://www.transferoviarcalatori.ro/
-        agency_timezone: Europe/Bucharest
-    -   
-        agency_id: 234273
-        agency_name: Calea Ferată din Moldova
-        agency_url: http://www.railway.md
         agency_timezone: Europe/Bucharest
     -
         agency_id: 236025
@@ -41,11 +30,10 @@ agency_mapping:
         agency_url: http://www.cfrcalatori.ro/
         agency_timezone: Europe/Bucharest
     -
-        agency_id: 916191
-        agency_name: Ferotrafic-TFI
-        agency_url: https://www.dnb.com/business-directory/company-profiles.ferotrafic-tfi_srl.917ddfa0b502beb6709caca942cd5d26.html
+        agency_id: 247232
+        agency_name: Ferotrafic - T.F.I. S.R.L.
+        agency_url: https://data.gov.ro/dataset/mers-tren-2024-2025-ferotrafic-tfi
         agency_timezone: Europe/Bucharest
-    
 
 gtfs_files:
     agency:
