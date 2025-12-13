@@ -41,11 +41,10 @@ agency_mapping:
         agency_url: http://www.cfrcalatori.ro/
         agency_timezone: Europe/Bucharest
     -
-        agency_id: 916191
-        agency_name: Ferotrafic-TFI
-        agency_url: https://www.dnb.com/business-directory/company-profiles.ferotrafic-tfi_srl.917ddfa0b502beb6709caca942cd5d26.html
+        agency_id: 247232
+        agency_name: Ferotrafic - T.F.I. S.R.L.
+        agency_url: https://data.gov.ro/dataset/mers-tren-2024-2025-ferotrafic-tfi
         agency_timezone: Europe/Bucharest
-    
 
 gtfs_files:
     agency:
