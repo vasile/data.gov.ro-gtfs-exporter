@@ -86,8 +86,7 @@ class GovRoGTFSConverter
             trip_data = {
                 'trip_id' => trip_id,
                 'agency_id' => agency_id,
-                'trip_short_name' => trip_id,
-                'train_type_name' => trip_type,
+                'trip_short_name' => trip_type,
                 'stops_data' => self::trip_stops_data_for_xml_row(trip_row, trip_id),
                 'calendar_data' => self::trip_calendar_data_for_xml_row(trip_row),
             }
@@ -350,13 +349,13 @@ class GovRoGTFSConverter
 
     # https://developers.google.com/transit/gtfs/reference/extended-route-types
     def self.route_type_to_gtfs(trip_data)
-        train_type = trip_data['train_type_name']
+        trip_short_name = trip_data['trip_short_name']
         
         if trip_data['trip_short_name'].downcase.start_with?('auto')
             return 200
         end
 
-        case train_type
+        case trip_short_name
         when "R"
             return 106
         when "R-E"
