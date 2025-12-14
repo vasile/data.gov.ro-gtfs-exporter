@@ -351,7 +351,7 @@ class GovRoGTFSConverter
     def self.route_type_to_gtfs(trip_data)
         trip_short_name = trip_data['trip_short_name']
         
-        if trip_data['trip_short_name'].downcase.start_with?('auto')
+        if trip_data['trip_id'].downcase.start_with?('auto')
             return 200
         end
 
