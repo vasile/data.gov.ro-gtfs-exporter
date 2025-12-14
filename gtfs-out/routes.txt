@@ -204,7 +204,7 @@ route_id,agency_id,route_short_name,route_long_name,route_type
 203,227098,,Timişoara Nord - Reşiţa Nord,106
 204,227098,,Ploieşti Sud - Urziceni,106
 205,227098,,Roman - Dagâţa Hm.,106
-206,227098,,Cenad h. - Sânnicolau Mare Hm.,106
+206,227098,,Cenad h. - Sânnicolau Mare Hm.,200
 207,227098,,Blaj - Bălăuşeri hcv.,106
 208,227098,,Urziceni - Ploieşti Sud,106
 209,227098,,Braşov - Întorsura Buzăului Hm,106
@@ -244,7 +244,7 @@ route_id,agency_id,route_short_name,route_long_name,route_type
 243,227098,,Timişoara Nord - Caransebeş,106
 244,227098,,Timişoara Nord - Sânnicolau Mare Hm.,106
 245,227098,,Braşov - Zărneşti,106
-246,227098,,Sânnicolau Mare Hm. - Cenad h.,106
+246,227098,,Sânnicolau Mare Hm. - Cenad h.,200
 247,227098,,Sărmaşel hcv. - Bistriţa Nord,106
 248,227098,,Vaslui - Iaşi,106
 249,227098,,Braşov - Mangalia,103
@@ -330,7 +330,7 @@ route_id,agency_id,route_short_name,route_long_name,route_type
 329,6100826,,Simeria - Arad,106
 330,6100826,,Bucureşti Nord Gr.A - Buzău,106
 331,6100826,,Iaşi - Bucureşti Nord Gr.A,103
-332,6100826,,Mangalia - Constanţa,106
+332,6100826,,Mangalia - Constanţa,200
 333,6100826,,Săvârşin - Simeria,106
 334,6100826,,Ciulniţa - Slobozia Veche,106
 335,6100826,,Bucureşti Nord Gr.A - Bucureşti Progresu,106
@@ -360,7 +360,7 @@ route_id,agency_id,route_short_name,route_long_name,route_type
 359,6100826,,Iaşi - Vaslui,106
 360,6100826,,Vişeu de Jos - Sighetu Marmaţiei,106
 361,6100826,,Reşiţa Sud Hm. - Caransebeş,106
-362,6100826,,Constanţa - Mangalia,106
+362,6100826,,Constanţa - Mangalia,200
 363,6100826,,Bucureşti Nord Gr.A - Ruse,105
 364,6100826,,Bucureşti Nord Gr.A - Cluj Napoca,102
 365,6100826,,Bucureşti Nord Gr.A - Fundulea Hm.,106
